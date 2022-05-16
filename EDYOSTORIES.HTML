@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min. css">
+    <title>Document</title>
+    <style>
+        .body {
+            background-color: white;
+        }
+
+        .nav {
+            background-color:rgb(241, 203, 203) ;
+            padding-left: 30px;
+
+        }
+
+        .logo {
+            color: blue;
+            font-size: 50px;
+            font: bold;
+
+
+        }
+
+        .stories {
+            color: black;
+
+            font-size: 30px;
+        }
+
+
+
+
+        .op1 {
+            margin-left: 50px;
+
+        }
+
+        .op2 {
+            margin-left: 70px;
+            font-size: 16px;
+        }
+
+        .op3 {
+            margin-left: 70px;
+            color: black;
+            padding: 1px 3px;
+            font-size: 25px;
+            border-radius: 10px;
+            border: 1px solid rgb(22, 22, 235);
+            background-color: rgb(150, 204, 218);
+            cursor: pointer;
+        }
+
+        .op4 {
+            font-size: 30px;
+
+        }
+
+        .op5 {
+            margin-left: 7px;
+            font-size: 15px;
+        }
+
+        .op6 {
+            margin-left: 12px;
+            color: white;
+            padding: 5px 5px;
+            font: 1px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            background-color: blue;
+            cursor: pointer;
+        }
+
+        .op7 {
+            margin-left: 13px;
+            color: blue;
+            padding: 3px 3px;
+            font: 1px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            cursor: pointer;
+
+
+        }
+
+        .op8 {
+            margin-left: 14px;
+            color: blue;
+            padding: 1px 3px;
+            font: 1px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+
+        .op9 {
+            margin-left: 16px;
+            color: blue;
+            padding: 1px 3px;
+            font: 1px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+
+        .op10 {
+            margin-left: 17px;
+            color: blue;
+            padding: 1px 3px;
+            font: 1px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+
+        .op11 {
+            margin-left: 18px;
+            color: blue;
+            padding: 1px 3px;
+            font: 1px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+
+        .op12 {
+            margin-left: 19px;
+            color: blue;
+            padding: 1px 3px;
+            font: 1px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+
+        .op13 {
+            margin-left: 20px;
+            color: blue;
+            padding: 1px 3px;
+            font: 1px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+
+        .op14 {
+            margin-left: 20px;
+            color:blue;
+            padding: 1px 3px;
+            font: 1px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+
+        .op15 {
+            border: 1px solid aqua;
+
+            background-color: white;
+        }
+
+
+        .op16 {
+            border: 1px solid aqua;
+
+            background-color: white;
+        }
+
+        .op17 {
+            border: 1px solid aqua;
+
+            background-color: white;
+        }
+
+        .op18 {
+            border: 1px solid aqua;
+
+            background-color: white;
+        }
+
+        .op19 {
+            border: 1px solid aqua;
+
+            background-color: white;
+        }
+
+        .op20 {
+            border: 1px solid aqua;
+
+            background-color: white;
+        }
+
+        .op21 {
+            border: 1px solid aqua;
+
+            background-color: white;
+        }
+
+        .op22 {
+            border: 1px solid aqua;
+
+            background-color: white;
+        }
+
+        .op23 {
+            border: 1px solid aqua;
+
+            background-color: white;
+        }
+
+        .contanier {
+            max-width: 500px;
+
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer {
+            background-color: #172146;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 25px;
+        }
+
+        .footer-col h4 {
+            font-size: 18px;
+            color: #ffffff;
+
+            margin-bottom: 30px;
+        }
+        .P1{
+            margin-top:80px;
+            margin-right: auto;
+            margin-left: auto; 
+            margin-bottom: 60px;
+        }
+        .p2{
+            margin-left:35px;
+        }
+        .p3{
+            margin-left:70px
+        }
+        .p4{
+            margin-left:22px; 
+            margin-right: auto;
+        }
+        .p5{
+            margin-left:55px;
+        }
+        .p6{
+            margin-left:70px;
+        }
+        .p7{
+            margin-left:12px; 
+            margin-right:auto;
+        }
+        .p8{
+            margin-left:55px;
+        }
+        .p9{
+            margin-left:55px;
+        }
+        .p10{
+            margin-left:12px; 
+            margin-right:auto;
+        }
+        .p11{
+            margin-left:40px;
+        }
+        .p12{
+            margin-left:70px; 
+        }
+        .p13{
+            margin-left:12px; 
+            margin-right:auto;
+        }
+        .p14{
+            margin-left:40px;
+        }
+        .p15{
+            margin-left:70px;
+        }
+        .p16{
+            margin-left:12px; 
+            margin-right:auto;
+        }
+        .p17{
+            margin-left:40px;
+        }
+        .p18{
+            margin-left:70px;
+        }
+        .p19{
+            margin-left:20px; 
+            margin-right:auto;
+        }
+        .p20{
+              margin-left: 40px;
+
+        }
+        .p21{
+             margin-left: 70px;
+        }
+        .p22{
+            margin-left:20px; 
+            margin-right:auto;
+        }
+        .p23{
+            margin-left: 40px;
+        }
+        .p24{
+            margin-left: 70px;
+        }
+        .p25{
+            margin-left:12px; 
+            margin-right:auto;
+        }
+        .p26{
+            margin-left: 40px;
+        }
+        .p27{
+            margin-left: 70px;
+        }
+        .p28{
+            margin-left:30px;
+             margin-right:auto;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <header class="div">
+        <nav class="nav">
+            <span class="logo">EDYODA</span>
+            <span class="op1"><select>
+                    <option> Explore categories </option>
+                    <option> Artifical intelligence </option>
+                    <option> Cloud computing </option>
+                    <option> DevOps </option>
+                    <option> Programing Language </option>
+                    <option> Mobaile Application Development</option>
+                    <option>Technology and Tools</option>
+                    <option>Get a Job in a Tech Company</option>
+                    <option>Others</option>
+                </select></span><span class="op2">EdYoda is knowledge share platfrom.</span>
+            <span class="op3"><a href="https://classroom.edyoda.com/">Go To Main Website</a></span>
+            <br>
+            <span><i class="stories">stories</i></span>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 class="op4">Trending Posts</h1>
+        </section>
+        <section>
+            <h5 class="op5">Filter by Category</h5>
+            <span class="op6">All</span>
+            <span class="op7">Artifical intelligence</span>
+            <span class="op8">Cloud Computing</span>
+            <span class="op9">DevOps</span>
+            <span class="op10">Programinges Language</span>
+            <span class="op11">Mobail Application Devlopment</span>
+            <span class="op12">Techanical and Tools</span>
+            <span class="op13"> Tech Company</span>
+            <span class="op14">other</span>
+        </section>
+    </main>
+    <table  class="P1">
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td class="op15">
+                    <div>
+                        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/seven_reasons_to_learn_python_sW8FK0o.jpg"
+                            height="200" width="350">
+                        <h3 class="p2">Fresh Graduate or IT Professional <br>Looking for Job</h3><br>
+                        <a href=" https://www.linkedin.com/pulse/fresh-graduate-professional-looking-new-job-7-reasons-armaan-ahmed/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_details%3BivRSRhJLT6Wq5Qv35ytA6g%3D%3D >>"
+                            class="p3" >Arman
+                            Ahmed</a>|05 Jul 2021<br>
+                        <p class="p4"><i>
+                                If you a fresh graduate-or new to It -lokking <br>for next job you need to read this
+                                last
+                                this <br>the last couple of years zekelabs gave me a<br> unique oppertunit to assess</i>
+                            technology
+                        </p>
+                    </div>
+                </td>
+                <td class="op16">
+                    <div>
+                        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_cloud_computing_70own2G.jpeg"
+                            height="200" width="350">
+                        <h3 class="p5">Introducing you all to <br>EdYoda-www.edyoda.com </h3><br>
+                        <a href=" https://www.linkedin.com/pulse/introducing-you-all-edyoda-wwwedyodacom-armaan-ahmed/"
+                            class="p6">Arman
+                            Ahmed</a>|10 Jul 2021<br>
+                        <p class="p7"><i>
+                                We were rapidally moving towards a day and <br>age where almost everthing can be
+                                controlled<br>by machine and one of the most revolution moves <br>and been avident</i>
+                            artificall
+                        </p>
+                    </div>
+                </td>
+                <td class="op17">
+                    <div>
+                        <img src=" https://edyoda.s3.amazonaws.com/media/blog-images/5_9jUbbUb.png" height="200"
+                            width="350">
+                        <h3 class="p8">Breaking the Myths around <br>Cybersecurity</h3><br>
+                        <a href=" https://www.linkedin.com/pulse/introducing-you-all-edyoda-wwwedyodacom-armaan-ahmed/"
+                            class="p9">Kalyan
+                            Mahaligam</a>|15 Jul 2021<br>
+                        <p class="p10"><i>
+                                Cybersecurity an internal role the process <br>of good business models but even
+                                cybersecurity <br>built with good intension can fall short in</i>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="op18">
+                    <div>
+                        <img src="  https://edyoda.s3.amazonaws.com/media/blog-images/7_WsnOXes.png" height="200"
+                            width="350">
+                        <h3 class="p11">Impotant of Data Backup and<br> Recovery in the IT</h3><br>
+                        <a  class="p12"
+                            href="https://www.linkedin.com/pulse/introducing-you-all-edyoda-wwwedyodacom-armaan-ahmed/">EdYoda</a>|04
+                        Aug 2021<br>
+                        <p class="p13"><i>
+                                A business must always introsepcts the areas <br>where they lack in order to bring about
+                                a
+                                positive <br>change in the work enviroment one of the main<br> precaution or a
+                                contingency
+                                plan</i>
+                        </p>
+                    </div>
+                </td>
+                <td class="op19">
+                    <div>
+                        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2_Ctzrh0e.png"
+                            height="200" width="350">
+                        <h3 class="p14">What is Web Scraping? </h3><br>
+                        <a class="p15"
+                            href=" https://www.linkedin.com/pulse/introducing-you-all-edyoda-wwwedyodacom-armaan-ahmed/">Edyoda</a>|15
+                        Sep 2021<br>
+                        <p class="p16"><i>
+                                Simply put web Scraping is one of the tools<br> developers use to gather and analayz
+                                information <br>from the the internet some websites and platfroms <br>offer application
+                                programing interface</i>
+                        </p>
+                    </div>
+                </td>
+                <td class="op20">
+                    <div>
+                        <img src=" https://edyoda.s3.amazonaws.com/media/blog-images/what_is_isa_blog_1_Ol9zdTB.png"
+                            height="200" width="350">
+                        <h3 class="p17">What is income share Agrement</h3><br>
+                        <a class="p18" href="https://edyoda.com">Edyoda</a>|20 Oct 2021<br>
+                        <p class="p19"><i>
+                                The term income share Agreeement has been <br>around for long time since 1995 to be
+                                precius<br> Surpries ?It
+                                was first introduce by Million <br>Fridman an American econimist</i>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="op21">
+                    <div>
+                        <img src=" https://edyoda.s3.amazonaws.com/media/blog-images/practical_machine_learning_1_uTlUxq8.png"
+                            height="200" width="350">
+                        <h3 class="p20">Practical Machine Learning with <br>Python and Keras</h3><br>
+                        <a class="p21" href="https://edyoda.com">Daniel Pyrathon</a>|30 Nov 2021<br>
+                        <p class="p22"><i>
+                                Machine learning is a feild of artifical <br>intelligence that uses statistical
+                                techaniques
+                                to<br> give computer system the ability to learn e.g <br>progressievly improve
+                                performance
+                                on a specfies</i>
+                        </p>
+                    </div>
+                </td>
+                <td class="op22">
+                    <div>
+                        <img src="  https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview_jvxxxO3.png"
+                            height="200" width="350">
+                        <h3 class="p23">Your Guide to Edyoda Admission<br> Test</h3><br>
+                        <a class="p24" href=" https://edyoda.com">Edyoda</a>|01 Jan 2022<br>
+                        <p class="p25"><i>
+                                All about Edyoda Admission text and how<br> to avail the schlorship upto INR
+                                2,50,000</i>
+                        </p>
+                    </div>
+                </td>
+                <td class="op23">
+                    <div>
+                        <img src=" https://edyoda.s3.amazonaws.com/media/blog-images/WhatsApp_Image_2019-06-19_at_17.55.10_sLZ1gKv.jpeg"
+                            height="200" width="350">
+                        <h3 class="p26">All about AITEST and how to avail<br> rewards up to INR</h3><br>
+                        <a class="p27" href="https://edyoda.com">Edyoda</a>|03 Feb 2022<br>
+                        <p class="p28"><i>
+                                Ever since 2021 after sold hit from the falling <br>rate of economic growth the job
+                                market
+                                seems <br>to be challenging with the technology-enabled <br>distrupitor to play</i>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer class="footer">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>INSTITUTE</h4>
+                        <ul>
+                            <li><a href="https://edyoda.com">About</a></li>
+                            <li><a href="https://edyoda.com">Contact Us</a></li>
+                            <li><a href="https://edyoda.com">Terms of Use</a></li>
+                            <li><a href="https://edyoda.com">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>RESOURCES</h4>
+                        <ul>
+                            <li><a href="https://edyoda.com">Learning Paths</a></li>
+                            <li><a href="https://edyoda.com">Course</a></li>
+                            <li><a href="https://edyoda.com">Learning Videos</a></li>
+                            <li><a href="https://edyoda.com">Educatores</a></li>
+                            <li><a href="https://edyoda.com">Edyoda Stories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>QUICK LINKS</h4>
+                        <ul>
+                            <li><a href="https://edyoda.com">Learn and Earn</a></li>
+                            <li><a href="https://edyoda.com">Become a Learning-Enabler</a></li>
+                            <li><a href="https://edyoda.com">Tips for Learning-Enabler</a></li>
+                            <li><a href="https://edyoda.com">Affilate Program</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
+    </footer>
+
+</body>
+
+</html>
